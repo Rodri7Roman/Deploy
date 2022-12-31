@@ -1,0 +1,32 @@
+.container-pag{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.ul-pag{
+    display: flex;
+    justify-content: center;
+}
+
+.li-pag{
+    list-style-type: none;
+    padding-right: 12px;
+}
+
+.li-pag .notCurrent{
+    padding: 12px;
+    background-color: #0055ff2f;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #000000;
+    border-radius: 6px;
+}
+
+.current{
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    border-radius: 6px;
+    background-color: #000000;
+    color: #ffffff;
+}

@@ -1,0 +1,46 @@
+:root {
+  --font-size: 2.4rem;
+  --font-familyBold: myFontBold;
+  --font-familyLighter: myFontLighter;
+  --font-familySemi: myFontSemi;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+  font-family: myFontBold;
+  src: url(./fonts/seoulhangang-cbl.ttf);
+}
+
+@font-face {
+  font-family: myFontSemi;
+  src: url(./fonts/seoulhangang-b.ttf);
+}
+
+@font-face {
+  font-family: myFontLighter;
+  src: url(./fonts/seoulhangang-cm.ttf);
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

@@ -1,0 +1,8 @@
+.container-loader {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.container-loader img{
+  border-radius: 8px;
+}

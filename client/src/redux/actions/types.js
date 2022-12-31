@@ -1,0 +1,11 @@
+export const GET_DOGS = "GET_DOGS";
+export const GET_DOG = "GET_DOG";
+export const GET_TEMPERAMENTS = "GET_TEMPERAMENTS";
+export const CREATE_DOG = "CREATE_DOG";
+export const SEARCH_DOGS = "SEARCH_DOGS";
+export const FILTER_BY_CREATION = "FILTER_BY_CREATION";
+export const ORDER_BY_LETTERS = "ORDER_BY_LETTERS";
+export const FILTER_BY_TEMPERAMENTS = "FILTER_BY_TEMPERAMENTS";
+export const ORDER_BY_WEIGHT = "ORDER_BY_WEIGHT";
+// export const ERROR = "ERROR";
+export const CLEAN_DOG = "CLEAN_DOG";

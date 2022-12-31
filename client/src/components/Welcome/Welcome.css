@@ -1,0 +1,23 @@
+.container-ingresar {
+  background-image: url("../../img/kevin-noble-gA3Qd2tquMc-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.button-ingresar {
+  padding: 10px 30px;
+  cursor: pointer;
+  font-family: myFontSemi;
+  font-size: var(--font-size);
+  color: #03318d;
+  background-color: #fff;
+  border: 1px solid #03318d;
+  border-radius: 4px;
+}

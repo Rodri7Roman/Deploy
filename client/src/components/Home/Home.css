@@ -1,0 +1,123 @@
+.container-home {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+  display: flex;
+}
+
+.container-filter {
+  width: 18%;
+  background-color: #F1F1F1;
+  height: 400px;
+  margin: auto 0;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid #0000002f;
+  border-radius: 12px;
+}
+.container-filter select{
+    width: 20rem;
+    height: 2.8rem;
+    text-align: center;
+    /* font-family: myFontLighter; */
+    font-size: 1.8rem;
+    border-radius: 8px;
+    background-color: #0055ff2f;
+    border: 1px solid #0055ff2f;
+}
+
+
+.text-filter{
+    /* font-family: myFontLighter; */
+    font-size: 2rem;
+    padding-bottom: 6px;
+}
+
+
+
+.container-dogs {
+  width: 80%;
+}
+
+.section-input {
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.container-input {
+  width: 584px;
+  height: 46px;
+  margin: 0 auto;
+  background-color: #F1F1F1;
+  border: 1px solid #0000002f;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-input:hover {
+  box-shadow: 0 1px 6px 0 #171717;
+  border-color: #dfe1e500;
+}
+
+.section-input input {
+  width: 520px;
+  height: 42px;
+  margin-left: 12px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  color: #000000;
+  font-family: myFontLighter;
+  font-size: 2.2rem;
+}
+.search-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/4771/4771722.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  padding-top: 22px;
+}
+
+.card-container {
+    width: 280px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    margin-top: 8px;
+  }
+
+.linkCard {
+  text-decoration: none;
+}
+
+.loader-dogs{
+  margin-top: 38px;
+  width: 180px;
+  height: 38px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background-color: #03318d3b;
+  font-family: myFontBold;
+  font-size: 2.2rem;
+  color: #03318d;
+  cursor: pointer;
+}
+
