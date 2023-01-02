@@ -26,9 +26,6 @@ const About = (props) => {
             <p>Redux</p>
           </li>
           <li>
-            <p>HTML</p>
-          </li>
-          <li>
             <p>React</p>
           </li>
           <li>
