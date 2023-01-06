@@ -48,9 +48,11 @@ const Home = (props) => {
 
   const handleFilterTemp = (e) => {
     dispatch(filterTemperaments(e.target.value));
+    setCurrentPage(1);
   };
   const handleFilterCreated = (e) => {
     dispatch(filterCreated(e.target.value));
+    setCurrentPage(1);
   };
 
   const orderByLetters = (e) => {
