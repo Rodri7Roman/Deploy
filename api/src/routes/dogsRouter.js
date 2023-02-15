@@ -11,10 +11,10 @@ const dogsRouter = Router();
 dogsRouter.get("/", async (req, res) => {
   const { name } = req.query;
   try {
-    const apiDogs = await getDogs();
+    const result = await getDogs();
     if (!name) {
       // si no recibo el nombre por query, retorno todos los perros existentes
-      const result = await getDogs();
+      // const result = await getDogs();
       return res.status(200).send(result);
     } else {
       // si recibo query, llamo al controller getDogsFilter que retorna una array de perros con ese nombre
