@@ -21,7 +21,8 @@ const server = require("./src/app.js");
 const { conn } = require("./src/db.js");
 const getTemperaments = require("./src/controllers/temperaments");
 require("dotenv").config();
-const { PORT} = process.env
+let { PORT} = process.env
+PORT = PORT || 5050
 // Syncing all the models at once.
 conn.sync({ alter: true }).then(() => {
   server.listen(PORT, () => {
