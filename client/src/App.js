@@ -10,7 +10,7 @@ import Detail from "./components/Detail/Detail";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import axios from "axios"
-axios.defaults.baseURL = "https://deploy-production-0178.up.railway.app/"
+axios.defaults.baseURL = "https://deploydogs-production.up.railway.app/"
 
 function App() {
   const location = useLocation();
